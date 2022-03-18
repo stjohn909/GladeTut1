@@ -1,0 +1,32 @@
+{
+    "tasks": [
+        {
+            "type": "cppbuild",
+            "label": "C++/gtkmm build GladeTut",
+            "command": "/bin/g++",
+            "args": [
+                "-fdiagnostics-color=always",
+                "-g",
+                "${workspaceFolder}/main.cpp",
+                "${workspaceFolder}/GladeUi.cpp",
+                "-o",
+                "${workspaceFolder}/main",
+                "`pkg-config --cflags gtkmm-3.0`",
+                "`pkg-config --libs gtkmm-3.0`",
+                "-rdynamic"
+            ],
+            "options": {
+                "cwd": "${workspaceFolder}"
+            },
+            "problemMatcher": [
+                "$gcc"
+            ],
+            "group": {
+                "kind": "build",
+                "isDefault": true
+            },
+            "detail": "compiler: /bin/g++"
+        }
+    ],
+    "version": "2.0.0"
+}

@@ -1,0 +1,29 @@
+{
+	"folders": [
+		{
+			"path": "Gui"
+		}
+	],
+	"settings": {
+		"files.associations": {
+			"iostream": "cpp",
+			"optional": "cpp",
+			"array": "cpp",
+			"*.tcc": "cpp",
+			"functional": "cpp",
+			"memory": "cpp",
+			"tuple": "cpp",
+			"fstream": "cpp",
+			"istream": "cpp",
+			"limits": "cpp",
+			"mutex": "cpp",
+			"ostream": "cpp",
+			"numeric": "cpp",
+			"sstream": "cpp",
+			"streambuf": "cpp",
+			"thread": "cpp",
+			"utility": "cpp",
+			"valarray": "cpp"
+		}
+	}
+}
